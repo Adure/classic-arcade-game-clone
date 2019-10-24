@@ -36,7 +36,7 @@ class Player {
         for (let enemy of allEnemies) {
             let xdiff = Math.abs(enemy.x - this.x);
             let ydiff = Math.abs(enemy.y - this.y);
-            if (xdiff < 60 && ydiff < 20) {
+            if (xdiff < 70 && ydiff < 20) {
                 this.resetPlayer();
             }
         }
